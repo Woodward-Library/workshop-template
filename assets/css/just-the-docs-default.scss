@@ -13,7 +13,7 @@
 }
 
 #home-banner {
-    background-image: url('../images/2016_LibrarySignature.jpg');
+    background-image: url('../images/ubc7-clf-sprite-white-2x.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
