@@ -12,12 +12,21 @@
  height: 75px;
 }
 
+.side-bar {
+  padding-top:20px;
+}
+
+.main {
+  padding-top:20px;
+}
+
 #home-banner {
     background-image: url('../images/ubc7-clf-sprite-white-2x.png');
 
     background-repeat: no-repeat;
-    background-position: 16px -597px;
     border-top: 3px solid #ffffff;
+    background-position: 16px -449px;
+    padding-bottom: 84px;
 
 }
 #home-title-box {
