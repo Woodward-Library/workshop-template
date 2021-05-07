@@ -8,7 +8,7 @@
 {% include css/just-the-docs.scss.liquid color_scheme=color_scheme %}
 
 .UBCheader {
- background-color: blue;
+ background-color: #002145;
 
 }
 
@@ -16,7 +16,9 @@
     background-image: url('../images/ubc7-clf-sprite-white-2x.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
+    background-position: 16px -597px;
+    border-top: 3px solid #ffffff;
+
 }
 #home-title-box {
     /* padding-top: {{ site.data.theme.home-title-y-padding | default: '1em' }};
